@@ -1,0 +1,19 @@
+# Pthon bytecode cache
+__pychache__/
+*.py[cod]
+*$py.class
+
+# Vitual environment
+.venv/
+venv/
+ENV/
+
+# Operational & sensitive business data
+*.csv
+!sample_intake.csv
+
+# IDE andnOS metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
